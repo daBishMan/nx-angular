@@ -1,44 +1,47 @@
 {
-  "npmScope": "nx-angular",
-  "affected": {
-    "defaultBase": "master"
-  },
-  "implicitDependencies": {
-    "package.json": {
-      "dependencies": "*",
-      "devDependencies": "*"
+    "npmScope": "nx-angular",
+    "affected": {
+        "defaultBase": "master"
     },
-    ".eslintrc.json": "*"
-  },
-  "tasksRunnerOptions": {
-    "default": {
-      "runner": "@nrwl/workspace/tasks-runners/default",
-      "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
-      }
+    "implicitDependencies": {
+        "package.json": {
+            "dependencies": "*",
+            "devDependencies": "*"
+        },
+        ".eslintrc.json": "*"
+    },
+    "tasksRunnerOptions": {
+        "default": {
+            "runner": "@nrwl/nx-cloud",
+            "options": {
+                "cacheableOperations": ["build", "lint", "test", "e2e"],
+                "accessToken": "NGY2ZGE4NmMtMjhjYS00ODQxLWE3NTEtMzZkNjEwZjI1MTc5fHJlYWQtd3JpdGU=",
+                "canTrackAnalytics": false,
+                "showUsageWarnings": true
+            }
+        }
+    },
+    "targetDependencies": {
+        "build": [
+            {
+                "target": "build",
+                "projects": "dependencies"
+            }
+        ]
+    },
+    "projects": {
+        "api": {
+            "tags": []
+        },
+        "api-interfaces": {
+            "tags": []
+        },
+        "client-app": {
+            "tags": []
+        },
+        "client-app-e2e": {
+            "tags": [],
+            "implicitDependencies": ["client-app"]
+        }
     }
-  },
-  "targetDependencies": {
-    "build": [
-      {
-        "target": "build",
-        "projects": "dependencies"
-      }
-    ]
-  },
-  "projects": {
-    "api": {
-      "tags": []
-    },
-    "api-interfaces": {
-      "tags": []
-    },
-    "client-app": {
-      "tags": []
-    },
-    "client-app-e2e": {
-      "tags": [],
-      "implicitDependencies": ["client-app"]
-    }
-  }
 }
