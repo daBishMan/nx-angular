@@ -4,7 +4,7 @@
         "activityBar.activeBorder": "#13cc40",
         "activityBar.background": "#ca3f13",
         "activityBar.foreground": "#e7e7e7",
-        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBar.inactiveForeground": "#e7e7e779",
         "activityBarBadge.background": "#13cc40",
         "activityBarBadge.foreground": "#15202b",
         "editorGroup.border": "#ca3f13",
@@ -18,7 +18,7 @@
         "titleBar.activeBackground": "#ca3f13",
         "titleBar.activeForeground": "#e7e7e7",
         "titleBar.border": "#ca3f13",
-        "titleBar.inactiveBackground": "#ca3f1399",
+        "titleBar.inactiveBackground": "#ca3f13",
         "titleBar.inactiveForeground": "#e7e7e799",
         "panelTitle.activeBorder": "#ca3f13",
         "sash.hoverBorder": "#ca3f13"
