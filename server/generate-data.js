@@ -19,5 +19,3 @@ for (let index = 1; index <= 100; index++) {
         title: faker.name.title()
     });
 }
-
-console.log(JSON.stringify(database));

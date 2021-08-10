@@ -26,7 +26,7 @@
 
 # json-server and faker data creators
 server/*
-!generateData.js
+!generate-data.js
 !routes.json
 
 # misc
