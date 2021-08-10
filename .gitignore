@@ -24,6 +24,7 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 
+# json-server and faker data creators
 .server/*
 !generateData.js
 !routes.json
