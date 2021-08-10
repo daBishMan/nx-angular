@@ -3,7 +3,12 @@
         "angular.ng-template",
         "nrwl.angular-console",
         "esbenp.prettier-vscode",
-        "firsttris.vscode-jest-runner",
-        "dbaeumer.vscode-eslint"
+        "dbaeumer.vscode-eslint",
+        "coenraads.bracket-pair-colorizer-2",
+        "vivaxy.vscode-conventional-commits",
+        "hbenl.vscode-test-explorer",
+        "kavod-io.vscode-jest-test-adapter",
+        "oderwat.indent-rainbow",
+        "rangav.vscode-thunder-client"
     ]
 }

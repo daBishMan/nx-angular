@@ -129,6 +129,7 @@
                     },
                     "defaultConfiguration": "development",
                     "options": {
+                        "browserTarget": "client-app:build",
                         "proxyConfig": "apps/client-app/proxy.conf.json"
                     }
                 },
