@@ -24,6 +24,10 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 
+.server/*
+!generateData.js
+!routes.json
+
 # misc
 /.sass-cache
 /connect.lock
