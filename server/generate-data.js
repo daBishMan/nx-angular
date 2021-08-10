@@ -20,4 +20,5 @@ for (let index = 1; index <= 100; index++) {
     });
 }
 
+// This is needed to stay here
 console.log(JSON.stringify(database));
