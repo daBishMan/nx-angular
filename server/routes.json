@@ -1,4 +1,4 @@
 {
     "/api/products": "/products",
-    "/api/customers": "/customers"
+    "/api/customers": "/customers",
 }
